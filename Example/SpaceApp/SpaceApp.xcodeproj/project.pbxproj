@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A117062722306BF10061678C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A117062622306BF10061678C /* AppDelegate.m */; };
+		A117062A22306BF10061678C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A117062922306BF10061678C /* ViewController.m */; };
+		A117062D22306BF10061678C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A117062B22306BF10061678C /* Main.storyboard */; };
+		A117062F22306BF30061678C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A117062E22306BF30061678C /* Assets.xcassets */; };
+		A117063222306BF30061678C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A117063022306BF30061678C /* LaunchScreen.storyboard */; };
+		A117063522306BF30061678C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A117063422306BF30061678C /* main.m */; };
+		A117064122306C6E0061678C /* SpaceShooter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A117064022306C2F0061678C /* SpaceShooter.framework */; };
+		A117064222306C6E0061678C /* SpaceShooter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A117064022306C2F0061678C /* SpaceShooter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A117065122306FD50061678C /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A117065022306FD50061678C /* Messages.framework */; };
+		A117065522306FD50061678C /* MessagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A117065422306FD50061678C /* MessagesViewController.m */; };
+		A117065822306FD50061678C /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A117065622306FD50061678C /* MainInterface.storyboard */; };
+		A117065A22306FD60061678C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A117065922306FD60061678C /* Assets.xcassets */; };
+		A117065E22306FD60061678C /* SpaceMessage.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A117064E22306FD50061678C /* SpaceMessage.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A117066322306FE60061678C /* SpaceShooter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A117064022306C2F0061678C /* SpaceShooter.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A117063F22306C2F0061678C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A117063B22306C2F0061678C /* SpaceShooter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A171B1AC222F106F00A517B9;
+			remoteInfo = SpaceShooter;
+		};
+		A117064322306C6E0061678C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A117063B22306C2F0061678C /* SpaceShooter.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A171B1AB222F106F00A517B9;
+			remoteInfo = SpaceShooter;
+		};
+		A117065C22306FD60061678C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A117061A22306BF10061678C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A117064D22306FD50061678C;
+			remoteInfo = SpaceMessage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A117064522306C6E0061678C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A117064222306C6E0061678C /* SpaceShooter.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A117066222306FD60061678C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A117065E22306FD60061678C /* SpaceMessage.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A117062222306BF10061678C /* SpaceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A117062522306BF10061678C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A117062622306BF10061678C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A117062822306BF10061678C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A117062922306BF10061678C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A117062C22306BF10061678C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A117062E22306BF30061678C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A117063122306BF30061678C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A117063322306BF30061678C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A117063422306BF30061678C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A117063B22306C2F0061678C /* SpaceShooter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SpaceShooter.xcodeproj; path = ../../../Framework/SpaceShooter/SpaceShooter.xcodeproj; sourceTree = "<group>"; };
+		A117064E22306FD50061678C /* SpaceMessage.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SpaceMessage.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A117065022306FD50061678C /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		A117065322306FD50061678C /* MessagesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessagesViewController.h; sourceTree = "<group>"; };
+		A117065422306FD50061678C /* MessagesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessagesViewController.m; sourceTree = "<group>"; };
+		A117065722306FD50061678C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		A117065922306FD60061678C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A117065B22306FD60061678C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A117061F22306BF10061678C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A117064122306C6E0061678C /* SpaceShooter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A117064B22306FD50061678C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A117066322306FE60061678C /* SpaceShooter.framework in Frameworks */,
+				A117065122306FD50061678C /* Messages.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A117061922306BF10061678C = {
+			isa = PBXGroup;
+			children = (
+				A117062422306BF10061678C /* SpaceApp */,
+				A117065222306FD50061678C /* SpaceMessage */,
+				A117064F22306FD50061678C /* Frameworks */,
+				A117062322306BF10061678C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A117062322306BF10061678C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A117062222306BF10061678C /* SpaceApp.app */,
+				A117064E22306FD50061678C /* SpaceMessage.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A117062422306BF10061678C /* SpaceApp */ = {
+			isa = PBXGroup;
+			children = (
+				A117063B22306C2F0061678C /* SpaceShooter.xcodeproj */,
+				A117062522306BF10061678C /* AppDelegate.h */,
+				A117062622306BF10061678C /* AppDelegate.m */,
+				A117062822306BF10061678C /* ViewController.h */,
+				A117062922306BF10061678C /* ViewController.m */,
+				A117062B22306BF10061678C /* Main.storyboard */,
+				A117062E22306BF30061678C /* Assets.xcassets */,
+				A117063022306BF30061678C /* LaunchScreen.storyboard */,
+				A117063322306BF30061678C /* Info.plist */,
+				A117063422306BF30061678C /* main.m */,
+			);
+			path = SpaceApp;
+			sourceTree = "<group>";
+		};
+		A117063C22306C2F0061678C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A117064022306C2F0061678C /* SpaceShooter.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A117064F22306FD50061678C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A117065022306FD50061678C /* Messages.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A117065222306FD50061678C /* SpaceMessage */ = {
+			isa = PBXGroup;
+			children = (
+				A117065322306FD50061678C /* MessagesViewController.h */,
+				A117065422306FD50061678C /* MessagesViewController.m */,
+				A117065622306FD50061678C /* MainInterface.storyboard */,
+				A117065922306FD60061678C /* Assets.xcassets */,
+				A117065B22306FD60061678C /* Info.plist */,
+			);
+			path = SpaceMessage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A117062122306BF10061678C /* SpaceApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A117063822306BF30061678C /* Build configuration list for PBXNativeTarget "SpaceApp" */;
+			buildPhases = (
+				A117061E22306BF10061678C /* Sources */,
+				A117061F22306BF10061678C /* Frameworks */,
+				A117062022306BF10061678C /* Resources */,
+				A117064522306C6E0061678C /* Embed Frameworks */,
+				A117066222306FD60061678C /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A117064422306C6E0061678C /* PBXTargetDependency */,
+				A117065D22306FD60061678C /* PBXTargetDependency */,
+			);
+			name = SpaceApp;
+			productName = SpaceApp;
+			productReference = A117062222306BF10061678C /* SpaceApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A117064D22306FD50061678C /* SpaceMessage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A117065F22306FD60061678C /* Build configuration list for PBXNativeTarget "SpaceMessage" */;
+			buildPhases = (
+				A117064A22306FD50061678C /* Sources */,
+				A117064B22306FD50061678C /* Frameworks */,
+				A117064C22306FD50061678C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpaceMessage;
+			productName = SpaceMessage;
+			productReference = A117064E22306FD50061678C /* SpaceMessage.appex */;
+			productType = "com.apple.product-type.app-extension.messages";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A117061A22306BF10061678C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = KodBiro;
+				TargetAttributes = {
+					A117062122306BF10061678C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					A117064D22306FD50061678C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = A117061D22306BF10061678C /* Build configuration list for PBXProject "SpaceApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A117061922306BF10061678C;
+			productRefGroup = A117062322306BF10061678C /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A117063C22306C2F0061678C /* Products */;
+					ProjectRef = A117063B22306C2F0061678C /* SpaceShooter.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				A117062122306BF10061678C /* SpaceApp */,
+				A117064D22306FD50061678C /* SpaceMessage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A117064022306C2F0061678C /* SpaceShooter.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SpaceShooter.framework;
+			remoteRef = A117063F22306C2F0061678C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A117062022306BF10061678C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A117063222306BF30061678C /* LaunchScreen.storyboard in Resources */,
+				A117062F22306BF30061678C /* Assets.xcassets in Resources */,
+				A117062D22306BF10061678C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A117064C22306FD50061678C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A117065A22306FD60061678C /* Assets.xcassets in Resources */,
+				A117065822306FD50061678C /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A117061E22306BF10061678C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A117062A22306BF10061678C /* ViewController.m in Sources */,
+				A117063522306BF30061678C /* main.m in Sources */,
+				A117062722306BF10061678C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A117064A22306FD50061678C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A117065522306FD50061678C /* MessagesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A117064422306C6E0061678C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SpaceShooter;
+			targetProxy = A117064322306C6E0061678C /* PBXContainerItemProxy */;
+		};
+		A117065D22306FD60061678C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A117064D22306FD50061678C /* SpaceMessage */;
+			targetProxy = A117065C22306FD60061678C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A117062B22306BF10061678C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A117062C22306BF10061678C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A117063022306BF30061678C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A117063122306BF30061678C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A117065622306FD50061678C /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A117065722306FD50061678C /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A117063622306BF30061678C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A117063722306BF30061678C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A117063922306BF30061678C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 339454YJJ4;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../../framework/SpaceShooter/SpaceShooter/";
+				INFOPLIST_FILE = SpaceApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kodbiro.SpaceApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A117063A22306BF30061678C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 339454YJJ4;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../../framework/SpaceShooter/SpaceShooter/";
+				INFOPLIST_FILE = SpaceApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kodbiro.SpaceApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A117066022306FD60061678C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 339454YJJ4;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../../framework/SpaceShooter/SpaceShooter/";
+				INFOPLIST_FILE = SpaceMessage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kodbiro.SpaceApp.SpaceMessage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A117066122306FD60061678C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 339454YJJ4;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../../framework/SpaceShooter/SpaceShooter/";
+				INFOPLIST_FILE = SpaceMessage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kodbiro.SpaceApp.SpaceMessage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A117061D22306BF10061678C /* Build configuration list for PBXProject "SpaceApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A117063622306BF30061678C /* Debug */,
+				A117063722306BF30061678C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A117063822306BF30061678C /* Build configuration list for PBXNativeTarget "SpaceApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A117063922306BF30061678C /* Debug */,
+				A117063A22306BF30061678C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A117065F22306FD60061678C /* Build configuration list for PBXNativeTarget "SpaceMessage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A117066022306FD60061678C /* Debug */,
+				A117066122306FD60061678C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A117061A22306BF10061678C /* Project object */;
+}
