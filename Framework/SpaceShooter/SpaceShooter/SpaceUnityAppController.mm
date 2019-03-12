@@ -45,7 +45,10 @@ extern bool _skipPresent;
     [self selectRenderingAPI];
     [UnityRenderingView InitializeForAPI: self.renderingAPI];
     
-    _window         = [[UIWindow alloc] initWithFrame: [UIScreen mainScreen].bounds];
+    // UNITY FRAMEWORK CHANGES BEGIN
+    //_window         = [[UIWindow alloc] initWithFrame: [UIScreen mainScreen].bounds];
+    // UNITY FRAMEWORK CHANGES END
+
     _unityView      = [self createUnityView];
     
     [DisplayManager Initialize];
@@ -72,8 +75,10 @@ extern bool _skipPresent;
 - (void)createUI
 {
     NSAssert(_unityView != nil, @"_unityView should be inited at this point");
-    NSAssert(_window != nil, @"_window should be inited at this point");
-    
+    // UNITY FRAMEWORK CHANGES BEGIN
+    //NSAssert(_window != nil, @"_window should be inited at this point");
+    // UNITY FRAMEWORK CHANGES END
+
     _rootController = [self createRootViewController];
     
     [self willStartWithViewController: _rootController];
