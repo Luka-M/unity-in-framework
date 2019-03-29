@@ -35,7 +35,7 @@ class DataViewController: UIViewController {
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         if let uv = self.unityView {
-            uv.frame = self.view.bounds
+            uv.frame = CGRect(x: view.bounds.width*0.1, y: view.bounds.height*0.1, width: view.bounds.width*0.8, height: view.bounds.height*0.8)
         }
     }
     
