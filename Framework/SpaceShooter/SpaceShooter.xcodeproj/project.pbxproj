@@ -10,7 +10,7 @@
 		A117060F223066F60061678C /* UnityMain.mm in Sources */ = {isa = PBXBuildFile; fileRef = A117060E223066F60061678C /* UnityMain.mm */; };
 		A11706132230684B0061678C /* SpaceUnityAppController.h in Headers */ = {isa = PBXBuildFile; fileRef = A11706112230684B0061678C /* SpaceUnityAppController.h */; };
 		A11706142230684B0061678C /* SpaceUnityAppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = A11706122230684B0061678C /* SpaceUnityAppController.mm */; };
-		A1170617223069E70061678C /* SpaceAppController.h in Headers */ = {isa = PBXBuildFile; fileRef = A1170615223069E70061678C /* SpaceAppController.h */; };
+		A1170617223069E70061678C /* SpaceAppController.h in Headers */ = {isa = PBXBuildFile; fileRef = A1170615223069E70061678C /* SpaceAppController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A1170618223069E70061678C /* SpaceAppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = A1170616223069E70061678C /* SpaceAppController.mm */; };
 		A117064822306F1B0061678C /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = A117064622306F1B0061678C /* fishhook.c */; };
 		A117064922306F1B0061678C /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = A117064722306F1B0061678C /* fishhook.h */; };

@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "SpaceAppController.h"
 //! Project version number for SpaceShooter.
 FOUNDATION_EXPORT double SpaceShooterVersionNumber;
 
